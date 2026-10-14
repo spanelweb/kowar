@@ -1,6 +1,38 @@
 # KOWAR (Koneksi Warga)
 Adalah solusi perangkat lunak router/repeater berbasis mikrokontroler yang mengubah jaringan WiFi menjadi portal hotspot sewa internet terintegrasi.
 
+## Screenshoot
+<table style="width: 100%; border: none;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="images/ss001.png" width="100%">
+    </td>
+    <td align="center" style="border: none;">
+      <img src="images/ss002.png" width="100%">
+    </td>
+    <td align="center" style="border: none;">
+      <img src="images/ss003.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+<table style="width: 100%; border: none;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="images/ss004.png" width="100%">
+    </td>
+    <td align="center" style="border: none;">
+      <img src="images/ss005.png" width="100%">
+    </td>
+    <td align="center" style="border: none;">
+      <img src="images/ss006.png" width="100%">
+    </td>
+    <td align="center" style="border: none;">
+      <img src="images/ss007.png" width="100%">
+    </td>
+  </tr>
+</table>
+
 ## Diagram
 ```txt
 +-----------------------+    Koneksi WiFi (STA)     +--------------------------+
