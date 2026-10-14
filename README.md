@@ -95,9 +95,7 @@ Unduh [esp8266flasher EXE 32bit](https://github.com/nodemcu/nodemcu-flasher/blob
 ```
 
 ## Catatan
-```txt
-Firmware tidak untuk diperjual belikan kembali atau diproduksi dalam jumlah banyak untuk di perdagangkan, bukan source code yang diberikan, jadi jangan pernah membahas/meminta kode mentah! Peraturan ini sudah ditetapkan. Kami hanya akan mengajarkan dan memberikan firmware secara online, dan juga untuk perakitan atau penginstalan firmware sampai KOWAR V.1 dapat dijalankan (termasuk standar penggunaan).
-```
+> Firmware tidak untuk diperjual belikan kembali atau diproduksi dalam jumlah banyak untuk di perdagangkan, bukan source code yang diberikan, jadi jangan pernah membahas/meminta kode mentah! Peraturan ini sudah ditetapkan. Kami hanya akan mengajarkan dan memberikan firmware secara online, dan juga untuk perakitan atau penginstalan firmware sampai KOWAR V.1 dapat dijalankan (termasuk standar penggunaan).
 
 <hr/>
 
