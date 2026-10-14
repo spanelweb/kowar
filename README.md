@@ -101,7 +101,7 @@ Unduh firmware [KOWAR V.1 WEMOS D1 MINI ESP8266](https://github.com/spanelweb/ko
 > Firmware tidak untuk diperjual belikan kembali atau diproduksi dalam jumlah banyak untuk di perdagangkan, bukan source code yang diberikan, jadi jangan pernah membahas/meminta kode mentah! Peraturan ini sudah ditetapkan. Kami hanya akan mengajarkan dan memberikan firmware secara online, dan juga untuk perakitan atau penginstalan firmware sampai KOWAR V.1 dapat dijalankan (termasuk standar penggunaan).
 
 ## Bug?
-Lakukan reboot langsung dari perangkat Wemos-nya dengan tekan tombol di samping (RESET), lalu coba kembali koneksikan.
+Issue sidebar tidak bisa klik : Lakukan pememuatan ulang langsung dari perangkat Wemos-nya dengan tekan tombol di samping (RESET), lalu coba kembali koneksikan, segarkan halaman panel dasbor admin.
 
 <hr/>
 
