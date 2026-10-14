@@ -1,6 +1,11 @@
 # KOWAR (Koneksi Warga)
 Adalah solusi perangkat lunak router/repeater berbasis mikrokontroler yang mengubah jaringan WiFi menjadi portal hotspot sewa internet terintegrasi.
 
+## Sumbangan
+Terimakasih untuk orang baik.
+
+<img src="images/dana_donasi.png" width="100%">
+
 ## Screenshoot
 <table style="width: 100%; border: none;">
   <tr>
@@ -58,6 +63,18 @@ Keunggulan Perangkat Keras & Sistem:
 - Captive Portal: Setiap perangkat yang terhubung ke WiFi dapat mengunjungi portal lokal (199.4.7.9) untuk memasukan kode voucher atau melihat countdown sisa waktu.
 - Panel Admin Web-Based: Antarmuka modern bergaya sPanel ID style untuk membuat voucher, memantau client, scan jaringan sekitar, hingga melakukan factory reset langsung dari HP atau Laptop.
 
-Platform Hardware: Wemos D1 Mini (ESP8266)
+## Konfigurasi Awal :
+```c++
+strcpy(config.staSSID, "KOWAR-KOWAR");
+strcpy(config.staPASS, "admin123");
+strcpy(config.apSSID,  "KOWAR V1.0");
+strcpy(config.apPASS,  "admin123");
+String defaultHash = getSHA256("admin123");
+```
+Semua data disimpan di EEPROM perangkat.
 
-Pengembang: Suryo Dwijayanto
+<hr/>
+
+> Platform Hardware: Wemos D1 Mini (ESP8266)
+
+> Pengembang: Suryo Dwijayanto
