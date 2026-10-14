@@ -4,7 +4,7 @@ Adalah solusi perangkat lunak router/repeater berbasis mikrokontroler yang mengu
 ## Sumbangan
 Terimakasih untuk orang baik.
 
-<img src="images/dana_donasi.png" width="80%">
+<img src="images/dana_donasi.png" width="60%">
 
 ## Screenshoot
 <table style="width: 100%; border: none;">
