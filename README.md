@@ -73,8 +73,34 @@ String defaultHash = getSHA256("admin123");
 ```
 Semua data disimpan di EEPROM perangkat.
 
+## Cara Pasang Firmware (.bin)
+Pastikan anda sudah memasang driver [CH304](https://www.wemos.cc/en/latest/ch340_driver.html) di komputer anda.
+
+Unduh [esp8266flasher EXE 32bit](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe?raw=true) atau [esp8266flasher EXE 64bit](https://github.com/nodemcu/nodemcu-flasher/raw/refs/heads/master/Win64/Release/ESP8266Flasher.exe?raw=true) sesuaikan dengan komputer anda.
+```txt
+  Flash
+  Buka esp8266flasher.exe
+  ----------------------------
+  Advanced
+  115200
+  4Mb
+  80Mhz
+  DOUT
+  ----------------------------
+  Config
+  Dir YOUR-LOCAL-PC/wemos_d1_mini_esp8266_kowar_v1.bin    |    0x00000
+  ----------------------------
+  Operation
+  Your Port Ex.COM1 ---> Flash(F)
+```
+
+## Catatan
+```txt
+Firmware tidak untuk diperjual belikan kembali atau diproduksi dalam jumlah banyak untuk di perdagangkan, bukan source code yang diberikan, jadi jangan pernah membahas/meminta kode mentah! Peraturan ini sudah ditetapkan. Kami hanya akan mengajarkan dan memberikan firmware secara online, dan juga untuk perakitan atau penginstalan firmware sampai KOWAR V.1 dapat dijalankan (termasuk standar penggunaan).
+```
+
 <hr/>
 
-> Platform Hardware: Wemos D1 Mini (ESP8266)
+Platform Hardware: Wemos D1 Mini (ESP8266)
 
-> Pengembang: Suryo Dwijayanto
+Pengembang: Suryo Dwijayanto © 2026
