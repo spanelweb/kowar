@@ -6,7 +6,7 @@ Terimakasih untuk orang baik.
 
 <img src="images/dana_donasi.png" width="60%">
 
-## Screenshoot
+## Screenshot
 <table style="width: 100%; border: none;">
   <tr>
     <td align="center" style="border: none;">
@@ -73,6 +73,9 @@ String defaultHash = getSHA256("admin123");
 ```
 Semua data disimpan di EEPROM perangkat.
 
+## Batasan Terhubung
+Kami membatasi perangkat yang terhubung dengan maksimal 3, jika melebihi dari itu perangkat menolak berjabat tangan dengan pengguna ke 4. Dan untuk kode voucher anda dapat membuat dengan maksimal 5 sesuaikan nama kode dan waktu untuk terkoneksi.
+
 ## Cara Pasang Firmware (.bin)
 Pastikan anda sudah memasang driver [CH304](https://www.wemos.cc/en/latest/ch340_driver.html) di komputer anda.
 
@@ -96,6 +99,9 @@ Unduh [esp8266flasher EXE 32bit](https://github.com/nodemcu/nodemcu-flasher/blob
 
 ## Catatan
 > Firmware tidak untuk diperjual belikan kembali atau diproduksi dalam jumlah banyak untuk di perdagangkan, bukan source code yang diberikan, jadi jangan pernah membahas/meminta kode mentah! Peraturan ini sudah ditetapkan. Kami hanya akan mengajarkan dan memberikan firmware secara online, dan juga untuk perakitan atau penginstalan firmware sampai KOWAR V.1 dapat dijalankan (termasuk standar penggunaan).
+
+## Bug?
+Lakukan reboot langsung dari perangkat Wemos-nya dengan tekan tombol di samping (RESET), lalu coba kembali koneksikan.
 
 <hr/>
 
