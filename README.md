@@ -72,8 +72,8 @@ Keunggulan Perangkat Keras & Sistem:
 ## Strukrur web/portal
 | IP Address | | Halaman |
 | :--- | :---: | :--- |
-| `199.4.7.9` | | Portal Utama / Login |
-| `199.4.7.9/admin` | | Dasbor Admin |
+| `199.4.7.9` | | Portal Hotspot |
+| `199.4.7.9/admin` | | Login/Panel Dasbor |
 
 ## Konfigurasi Awal :
 ```c++
