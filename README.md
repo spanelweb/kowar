@@ -41,7 +41,7 @@ Terimakasih untuk orang baik.
 ## Diagram
 ```txt
 +-----------------------+    Koneksi WiFi (STA)     +--------------------------+
-|  Router Utama / ISP   | ------------------------> | Wemos D1 Mini ESP8266    |
+|  Router Utama / ISP   | ------------------------> | ESP8266 WIFI             |
 |  (Sumber Internet)    |                           | (KOWAR V1.0 Repeater)    |
 +-----------------------+                           +--------------------------+
                                                                   |
@@ -54,14 +54,14 @@ Terimakasih untuk orang baik.
                                                     +--------------------------+
 ```
 
-Menggunakan Wemos D1 Mini ESP8266 sebagai otak utama perangkat keras, KOWAR V1.0 mengubah modul WiFi murah meriah ini menjadi router hotspot mandiri layaknya mikrokontroler profesional berfitur lengkap.
+Menggunakan Otak ESP8266 sebagai otak utama perangkat keras, KOWAR V1.0 mengubah modul WiFi murah meriah ini menjadi router hotspot mandiri layaknya mikrokontroler profesional berfitur lengkap.
 
 Keunggulan Perangkat Keras & Sistem:
 
 - Optimasi Hardware ESP8266: Memanfaatkan memori dan fitur NAPT (Network Address Port Translation) secara efisien dengan arsitektur Global Session Timer, memastikan perangkat berjalan stabil tanpa crash atau lag.
-- Manajemen Voucher Terpusat: Sistem sewa internet fleksibel (mulai dari 1 jam hingga 12 jam) yang dikelola langsung di dalam memori EEPROM internal.
+- Manajemen Voucher Terpusat: Sistem voucher internet fleksibel (mulai dari 3 jam hingga 30 hari) yang dikelola langsung di dalam memori EEPROM internal.
 - Captive Portal: Setiap perangkat yang terhubung ke WiFi dapat mengunjungi portal lokal (199.4.7.9) untuk memasukan kode voucher atau melihat countdown sisa waktu.
-- Panel Admin Web-Based: Antarmuka modern bergaya sPanel ID style untuk membuat voucher, memantau client, scan jaringan sekitar, hingga melakukan factory reset langsung dari HP atau Laptop.
+- Panel Admin Web-Based: Antarmuka modern di desain oleh sPanel ID untuk membuat voucher, memantau client, scan jaringan sekitar, hingga melakukan factory reset, dan pengaturan lainnya langsung akses dari HP atau Laptop.
 
 ## Konfigurasi Awal :
 ```c++
@@ -79,7 +79,7 @@ Kami membatasi perangkat yang terhubung dengan maksimal 3, jika melebihi dari it
 ## Cara Pasang Firmware (.bin)
 Pastikan anda sudah memasang driver [CH304](https://www.wemos.cc/en/latest/ch340_driver.html) di komputer anda.
 
-Unduh firmware [KOWAR V.1 WEMOS D1 MINI ESP8266](https://github.com/spanelweb/kowar/releases/download/v1.0b/kowar.bin) dan flashtool [esp8266flasher EXE 32bit](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe?raw=true) atau [esp8266flasher EXE 64bit](https://github.com/nodemcu/nodemcu-flasher/raw/refs/heads/master/Win64/Release/ESP8266Flasher.exe?raw=true) sesuaikan dengan komputer anda.
+Unduh firmware [KOWAR V1.0 ESP8266](https://github.com/spanelweb/kowar/releases/download/v1.0s/kowar.bin) dan flashtool [esp8266flasher EXE 32bit](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe?raw=true) atau [esp8266flasher EXE 64bit](https://github.com/nodemcu/nodemcu-flasher/raw/refs/heads/master/Win64/Release/ESP8266Flasher.exe?raw=true) sesuaikan dengan komputer anda.
 ```txt
   Flash
   Buka esp8266flasher.exe
@@ -101,10 +101,10 @@ Unduh firmware [KOWAR V.1 WEMOS D1 MINI ESP8266](https://github.com/spanelweb/ko
 > Firmware tidak untuk diperjual belikan kembali atau diproduksi dalam jumlah banyak untuk di perdagangkan, bukan source code yang diberikan, jadi jangan pernah membahas/meminta kode mentah! Peraturan ini sudah ditetapkan. Kami hanya akan mengajarkan dan memberikan firmware secara online, dan juga untuk perakitan atau penginstalan firmware sampai KOWAR V.1 dapat dijalankan (termasuk standar penggunaan).
 
 ## Bug?
-Issue sidebar tidak bisa klik : Lakukan pememuatan ulang langsung dari perangkat Wemos-nya dengan tekan tombol di samping (RESET), lalu coba kembali koneksikan, segarkan halaman panel dasbor admin.
+Issue sidebar tidak bisa klik : Lakukan pememuatan ulang langsung dari perangkat papan-nya dengan tekan tombol di samping (RESET), lalu coba kembali koneksikan, segarkan halaman panel dasbor admin.
 
 <hr/>
 
-Platform Hardware: Wemos D1 Mini (ESP8266)
+Platform Hardware: ESP8266 (Espressif)
 
 Pengembang: Suryo Dwijayanto © 2026
