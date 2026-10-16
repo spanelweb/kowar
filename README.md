@@ -91,7 +91,7 @@ Kami membatasi perangkat yang terhubung dengan maksimal 5, dan dapat di setel da
 ## Cara Pasang Firmware (.bin)
 Pastikan anda sudah memasang driver [CH304](https://www.wemos.cc/en/latest/ch340_driver.html) di komputer anda.
 
-Unduh firmware [KOWAR V1.0 ESP8266](https://github.com/spanelweb/kowar/releases/download/v1.0s/kowar.bin) dan flashtool [esp8266flasher EXE 32bit](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe?raw=true) atau [esp8266flasher EXE 64bit](https://github.com/nodemcu/nodemcu-flasher/raw/refs/heads/master/Win64/Release/ESP8266Flasher.exe?raw=true) sesuaikan dengan komputer anda.
+Unduh firmware [KOWAR V1.0 ESP8266](https://github.com/spanelweb/kowar/releases/download/v1.0r/kowar.bin) dan flashtool [esp8266flasher EXE 32bit](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe?raw=true) atau [esp8266flasher EXE 64bit](https://github.com/nodemcu/nodemcu-flasher/raw/refs/heads/master/Win64/Release/ESP8266Flasher.exe?raw=true) sesuaikan dengan komputer anda.
 ```txt
   Flash
   Buka esp8266flasher.exe
