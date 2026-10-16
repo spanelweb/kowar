@@ -107,7 +107,7 @@ Unduh firmware [KOWAR V1.0 ESP8266](https://github.com/spanelweb/kowar/releases/
 > Firmware tidak untuk diperjual belikan kembali atau diproduksi dalam jumlah banyak untuk di perdagangkan, bukan source code yang diberikan, jadi jangan pernah membahas/meminta kode mentah! Peraturan ini sudah ditetapkan. Kami hanya akan mengajarkan dan memberikan firmware secara online, dan juga untuk perakitan atau penginstalan firmware sampai KOWAR V.1 dapat dijalankan (termasuk standar penggunaan).
 
 ## Bug?
-Issue sidebar tidak bisa klik : Lakukan pememuatan ulang langsung dari perangkat papan-nya dengan tekan tombol di samping (RESET), lalu coba kembali koneksikan, segarkan halaman panel dasbor admin.
+Issue web portal dasbor admin : Lakukan pememuatan ulang langsung dari perangkat papan-nya dengan tekan tombol di samping (RESET), lalu coba kembali koneksikan, segarkan halaman panel dasbor admin.
 
 <hr/>
 
