@@ -38,6 +38,12 @@ Terimakasih untuk orang baik.
   </tr>
 </table>
 
+## Sinopsis
+Banyak teman/kerabat meminta terhubung jaringan internet dari wifi utama yang dimiliki, dengan adanya KOWAR tidak perlu khawatir membagikan jaringan karena... Sudah pasti aman!, dapat mengatur/membuat voucher sendiri untuk menentukan sesi waktu sesuai keinginan, dan dapat memantau dan membatasi pengguna dengan maksimal 5 pengguna.
+
+## Alibi
+KOWAR Cocok digunakan untuk lingkungan keluarga/rt/rw. Bukan untuk partai/bisnis besar. Kami hanya mengembangkan sistem kecil dengan keterampilan profesional yang cocok untuk para berandalan yang ingin belajar, bukan pelajar yang ingin menjadi berandalan.
+
 ## Diagram
 ```txt
 +-----------------------+    Koneksi WiFi (STA)     +--------------------------+
