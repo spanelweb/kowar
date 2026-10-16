@@ -54,7 +54,7 @@ Terimakasih untuk orang baik.
                                                     +--------------------------+
 ```
 
-Menggunakan Otak ESP8266 sebagai otak utama perangkat keras, KOWAR V1.0 mengubah modul WiFi murah meriah ini menjadi router hotspot mandiri layaknya mikrokontroler profesional berfitur lengkap.
+Menggunakan ESP8266 WIFI sebagai otak utama perangkat keras, KOWAR V1.0 mengubah modul WiFi murah meriah ini menjadi router hotspot mandiri layaknya mikrokontroler profesional berfitur lengkap.
 
 Keunggulan Perangkat Keras & Sistem:
 
