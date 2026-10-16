@@ -80,7 +80,7 @@ String defaultHash = getSHA256("admin123");
 Semua data disimpan di EEPROM perangkat.
 
 ## Batasan Terhubung
-Kami membatasi perangkat yang terhubung dengan maksimal 3, jika melebihi dari itu perangkat menolak berjabat tangan dengan pengguna ke 4. Dan untuk kode voucher anda dapat membuat dengan maksimal 5 sesuaikan nama kode dan waktu untuk terkoneksi.
+Kami membatasi perangkat yang terhubung dengan maksimal 5, dan dapat di setel dari 1-5, jika melebihi dari yang sudah di tentukan perangkat menolak berjabat tangan dengan pengguna yang baru. Dan untuk kode voucher anda dapat membuat dengan maksimal 5 sesuaikan nama kode dan waktu untuk terkoneksi.
 
 ## Cara Pasang Firmware (.bin)
 Pastikan anda sudah memasang driver [CH304](https://www.wemos.cc/en/latest/ch340_driver.html) di komputer anda.
