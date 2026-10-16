@@ -1,5 +1,5 @@
 # KOWAR (Koneksi Warga)
-Adalah solusi perangkat lunak router/repeater berbasis mikrokontroler yang mengubah jaringan WiFi menjadi portal hotspot sewa internet terintegrasi.
+Adalah solusi perangkat lunak router/repeater berbasis mikrokontroler yang mengubah jaringan WiFi menjadi portal hotspot voucher internet terintegrasi.
 
 ## Sumbangan
 Terimakasih untuk orang baik.
