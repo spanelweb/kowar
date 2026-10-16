@@ -69,6 +69,12 @@ Keunggulan Perangkat Keras & Sistem:
 - Captive Portal: Setiap perangkat yang terhubung ke WiFi dapat mengunjungi portal lokal (199.4.7.9) untuk memasukan kode voucher atau melihat countdown sisa waktu.
 - Panel Admin Web-Based: Antarmuka modern di desain oleh sPanel ID untuk membuat voucher, memantau client, scan jaringan sekitar, hingga melakukan factory reset, dan pengaturan lainnya langsung akses dari HP atau Laptop.
 
+## Strukrur web/portal
+| IP Address | | Halaman |
+| :--- | :---: | :--- |
+| `199.4.7.9` | | Portal Utama / Login |
+| `199.4.7.9/admin` | | Dasbor Admin |
+
 ## Konfigurasi Awal :
 ```c++
 strcpy(config.staSSID, "KOWAR-KOWAR");
